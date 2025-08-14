@@ -1,0 +1,29 @@
+.org-chart {
+  position: relative;
+  padding: 20px 0;
+}
+
+.org-chart-line {
+  position: absolute;
+  background-color: #ccc;
+}
+
+.org-chart-line-vertical {
+  width: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.org-chart-line-horizontal {
+  height: 2px;
+}
+
+.org-chart-box {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+}
