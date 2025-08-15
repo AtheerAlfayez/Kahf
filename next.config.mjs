@@ -1,7 +1,7 @@
 
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
-const repo = 'Kahf1'; // اسم المستودع بالضبط
+const repo = 'Kahf'; // اسم المستودع بالضبط
 
 const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
